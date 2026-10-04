@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.LAHutchins91/renew",
+  "title": "Renew",
+  "description": "Approved renewal terms for a customer: current entitlements, what may be offered, and what an assistant must not add or discount, shared over MCP.",
+  "version": "0.1.0",
+  "websiteUrl": "https://github.com/LAHutchins91/renew-mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "http://localhost:3000/mcp"
+    }
+  ]
+}
