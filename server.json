@@ -5,10 +5,16 @@
   "description": "Approved renewal terms for a customer: current entitlements, what may be offered, and what an assistant must not add or discount, shared over MCP.",
   "version": "0.1.0",
   "websiteUrl": "https://github.com/LAHutchins91/renew-mcp",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/LAHutchins91/renew-mcp/main/logo.jpg",
+      "mimeType": "image/jpeg"
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "http://localhost:3000/mcp"
+      "url": "https://renew-mcp-one.vercel.app/mcp"
     }
   ]
 }
